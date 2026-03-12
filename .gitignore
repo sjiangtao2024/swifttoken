@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.env.*
+.wrangler
+node_modules/
+dist/
+tmp/
+
+# Local reference project, not part of the deployment payload
+new-api/
+
+# Worker local secrets
+workers/hfspace/.dev.vars
+
+# Persistent local data if tested outside HF
+data/
