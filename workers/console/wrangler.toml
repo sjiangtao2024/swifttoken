@@ -1,6 +1,7 @@
 name = "swifttoken-hfspace"
 main = "src/index.js"
 compatibility_date = "2026-03-12"
+workers_dev = true
 
 [observability]
 enabled = true
@@ -9,6 +10,6 @@ enabled = true
 crons = ["*/5 * * * *"]
 
 [vars]
-HF_SPACE_BASE_URL = "https://example-space.hf.space"
+HF_SPACE_BASE_URL = "https://swifttoken-newapi.hf.space"
 HF_SPACE_HEALTH_PATH = "/api/status"
 KEEPALIVE_USER_AGENT = "swifttoken-hfspace-keepalive/1.0"
