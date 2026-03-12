@@ -11,10 +11,8 @@ license: mit
 
 # swifttoken backend
 
-This repository packages `new-api` for a Hugging Face Docker Space and includes a Cloudflare Worker for keepalive and proxying.
+本仓库用于将 `new-api` 部署到 Hugging Face Docker Space，并提供独立的 Cloudflare `console` 与 `api` Worker。
 
-Deployment notes are in [`docs/`](./docs/):
+当前说明文档：
 
-- [`docs/hf-space-deploy.md`](./docs/hf-space-deploy.md)
-- [`docs/workers-hfspace.md`](./docs/workers-hfspace.md)
-- [`docs/plans/2026-03-12-hfspace-backend-design.md`](./docs/plans/2026-03-12-hfspace-backend-design.md)
+- [`docs/architecture-and-ops.md`](./docs/architecture-and-ops.md)
